@@ -1,13 +1,21 @@
 import React from "react";
 import "./App.css";
-import Menu from "./components/menu/menu";
+import { BrowserRouter, Route } from "react-router-dom";
 import BloodHound from "./components/characters/bloodhound/bloodhound";
+import Lifeline from "./components/characters/lifeline/lifeline";
+import Menu from "./components/menu/menu";
+
 const App = () => {
   return (
-    <div className="main">
-      <Menu />
-      <BloodHound />
-    </div>
+    <BrowserRouter>
+      <div className="main">
+        <Menu />
+        <div className="hero">
+          <Route exact path="/" component={BloodHound} />
+          <Route path="/lifeline" component={Lifeline} />
+        </div>
+      </div>
+    </BrowserRouter>
   );
 };
 

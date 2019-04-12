@@ -1,21 +1,26 @@
 import React from "react";
+import "./menu.scss";
+import { Link } from "react-router-dom";
 
-const menu = () => {
-  return (
-    <div className="menu">
-      <ul>
-        <li>BloodHound</li>
-        <li>Gibraltar</li>
-        <li>Lifeline</li>
-        <li>Pathfinder</li>
-        <li>Octane</li>
-        <li>Wraith</li>
-        <li>Bangalor</li>
-        <li>Caustic</li>
-        <li>Mirage</li>
-      </ul>
-    </div>
-  );
-};
+class Menu extends React.Component {
+  render() {
+    return (
+      <div className="menu">
+        <div>
+          <ul>
+            <li>
+              <Link to="/Lifeline">Lifeline</Link>
+            </li>
+            <li>
+              <Link to="/">BloodHound</Link>
+            </li>
+          </ul>
 
-export default menu;
+          <hr />
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Menu;
