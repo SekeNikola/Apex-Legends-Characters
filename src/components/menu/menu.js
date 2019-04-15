@@ -9,14 +9,17 @@ class Menu extends React.Component {
         <div>
           <ul>
             <li>
-              <Link to="/Lifeline">Lifeline</Link>
+              <Link to="/">
+                <img
+                  src={require("../../assets/img/bloodhound/bloodhound-menu.png")}
+                  alt=""
+                />
+              </Link>
             </li>
             <li>
-              <Link to="/">BloodHound</Link>
+              <Link to="/Lifeline">Lifeline</Link>
             </li>
           </ul>
-
-          <hr />
         </div>
       </div>
     );

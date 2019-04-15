@@ -1,10 +1,96 @@
 import React from "react";
-
+import "../../../assets/css/hero.scss";
 const bloodhound = () => {
+  const bg = require("../../../assets/img/bloodhound/bloodhoundBG.jpg");
+
   return (
-    <>
-      <img src={require("../../../assets/img/bangalor.png")} alt="" />
-    </>
+    <div
+      className="hero-description"
+      style={{
+        backgroundImage: `url(${bg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "bottom right"
+      }}
+    >
+      <div className="left-side">
+        <img
+          src={require("../../../assets/img/bloodhound/bloodhound.png")}
+          alt=""
+        />
+        <ul>
+          <li>
+            <b>Real name</b>
+            <br />
+            Unknowen
+          </li>
+          <li>
+            <b>Age</b>
+            <br />
+            Unknowen
+          </li>
+          <li>
+            <b>Home World</b>
+            <br />
+            Unknowen
+          </li>
+        </ul>
+      </div>
+      <div className="right-side">
+        <h2>BloodHound</h2>
+        <span>Technological Tracker</span>
+        <br />
+        <br />
+        <q>I am the hunter the Gods have sent.</q>
+
+        <p>
+          Bloodhound is known across the Outlands as one of the greatest game
+          hunters the Frontier has ever seen – and that’s about all anyone
+          knows. Their identity is a mystery wrapped in layers of rumors: they
+          are fabulously wealthy, a bloodthirsty murderer, a Goliath whisperer,
+          a former slave, half bat, and a dozen other things depending on who’s
+          doing the whispering.
+        </p>
+        <p>
+          All anyone truly knows is that Bloodhound is a force to be reckoned
+          with in the Apex Games. Bloodhound’s unparalleled tracking skills are
+          a boon to any team they join, helping them root out hidden opponents
+          and tracking the enemy’s movements. Calling on Earth’s Old Norse Gods
+          to guide them, Bloodhound believes that destiny is a path that has
+          already been laid out, eventually carrying all to their death. But
+          with that knowledge comes strength, because until that day comes,
+          Bloodhound knows they can’t be stopped
+        </p>
+      </div>
+
+      <div className="abillities">
+        <ul>
+          <li>
+            <b>Tactical Abillity</b>
+            Eye of the Allfather
+            <img
+              src={require("../../../assets/img/bloodhound/tactical.png")}
+              alt=""
+            />
+          </li>
+          <li>
+            <b>Passive Abillity</b>
+            Tracker
+            <img
+              src={require("../../../assets/img/bloodhound/passive.png")}
+              alt=""
+            />
+          </li>
+          <li>
+            <b>Ultimate Abillity</b>
+            Beast of the Hunt
+            <img
+              src={require("../../../assets/img/bloodhound/ultimate.png")}
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 };
 

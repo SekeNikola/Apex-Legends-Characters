@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Duke';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/font/Duke Fill.otf');
+}
+
+@font-face {
+  font-family: 'Seravek';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/font/Seravek.ttf');
+}
+
+@font-face {
+  font-family: 'Seravek-Light';
+  font-style: normal;
+  font-weight: lighter;
+  src: url('./assets/font/Seravek-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Seravek-Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./assets/font/Seravek-Bold.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Seravek";
+  background: #E5E1D8;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Duke"
+}
+
+q {
+  font-family: "Seravek";
+  font-size: 1.2em
+}
+
+span {
+  font-family: "Seravek-Light";
+  font-size: 1.5em
+}
+
+p {
+  font-size: 1.5em
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}

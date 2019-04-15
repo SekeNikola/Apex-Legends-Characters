@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter, Route } from "react-router-dom";
 import BloodHound from "./components/characters/bloodhound/bloodhound";
 import Lifeline from "./components/characters/lifeline/lifeline";

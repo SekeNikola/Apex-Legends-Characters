@@ -1,0 +1,89 @@
+.hero-description {
+    margin-left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: -20;
+
+    .left-side {
+        img {
+            height: 100vh;
+        }
+    }
+
+    .right-side {
+        max-width: 30vw;
+    }
+
+    h2 {
+        color: #DA292A;
+        font-size: 15rem;
+        position: relative;
+        left: -300px;
+        z-index: -10;
+        margin: 0;
+        padding: 0
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+
+        li {
+            list-style-type: none;
+            margin-bottom: 20px;
+
+        }
+    }
+
+    button {
+        border: none;
+        background: red;
+        color: white;
+        font-size: .8rem;
+        padding: 15px 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .read-more {
+        display: none;
+    }
+
+}
+
+.abillities {
+    width: 100%;
+    padding: 20px;
+    background: url('../img/abillitiesBG.jpg');
+
+
+    ul {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            margin-bottom: 20px;
+            max-width: 200px;
+            align-items: center;
+
+            img {
+                width: 200%;
+                margin-top: 20px;
+            }
+        }
+    }
+}
