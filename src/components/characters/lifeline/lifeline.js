@@ -1,11 +1,17 @@
 import React from "react";
+import "../../../assets/css/hero.scss";
 
-const bloodhound = () => {
-  return (
-    <>
-      <img src={require("../../../assets/img/lifeline.png")} alt="" />
-    </>
+const lifeline = () => {
+  return ( <
+    >
+    <
+    img src = {
+      require("../../../assets/img/lifeline/lifeline.png")
+    }
+    alt = "" / >
+    <
+    />
   );
 };
 
-export default bloodhound;
+export default lifeline;

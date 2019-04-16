@@ -7,6 +7,12 @@ class Menu extends React.Component {
     return (
       <div className="menu">
         <div>
+          <img
+            className="logo"
+            src={require("../../assets/img/apex-logo.png")}
+            alt=""
+          />
+
           <ul>
             <li>
               <Link to="/">
@@ -14,10 +20,26 @@ class Menu extends React.Component {
                   src={require("../../assets/img/bloodhound/bloodhound-menu.png")}
                   alt=""
                 />
+                <span>BloodHound</span>
               </Link>
             </li>
             <li>
-              <Link to="/Lifeline">Lifeline</Link>
+              <Link to="/Lifeline">
+                <img
+                  src={require("../../assets/img/lifeline/lifeline-menu.png")}
+                  alt=""
+                />
+                <span>Lifeline</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/Lifeline">
+                <img
+                  src={require("../../assets/img/lifeline/lifeline-menu.png")}
+                  alt=""
+                />
+                <span>Lifeline</span>
+              </Link>
             </li>
           </ul>
         </div>
