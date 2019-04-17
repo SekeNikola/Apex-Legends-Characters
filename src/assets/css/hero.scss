@@ -73,8 +73,9 @@
     ul {
         color: #fff;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        align-items: flex-start;
         padding: 0;
         margin: 0;
         font-size: 1.5rem;
@@ -87,12 +88,17 @@
             align-items: center;
             list-style-type: none;
             margin-bottom: 20px;
-            max-width: 200px;
+            max-width: 220px;
             align-items: center;
 
             img {
                 width: 200%;
                 margin-top: 20px;
+            }
+
+            span {
+                font-size: 1.3rem;
+                width: 100%
             }
         }
     }
@@ -112,6 +118,10 @@
 
     img {
         width: 50%
+    }
+
+    video {
+        position: fixed
     }
 }
 
@@ -145,11 +155,12 @@
         }
 
         .right-side {
+
             max-width: 100vw;
-            margin-left: 25px;
+            margin-left: 50px;
 
             h2 {
-                font-size: 13rem;
+                font-size: 10rem;
                 left: 0
             }
         }

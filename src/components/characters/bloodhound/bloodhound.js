@@ -81,6 +81,10 @@ const bloodhound = () => {
                 src={require("../../../assets/img/bloodhound/tactical.png")}
                 alt=""
               />
+              <span>
+                Briefly reveal hidden enemies, traps, and clues throughout
+                structures in front of you.
+              </span>
             </li>
             <li>
               <b>Passive Abillity</b>
@@ -89,6 +93,7 @@ const bloodhound = () => {
                 src={require("../../../assets/img/bloodhound/passive.png")}
                 alt=""
               />
+              <span>See tracks left behind by your foes.</span>
             </li>
             <li>
               <b>Ultimate Abillity</b>
@@ -97,15 +102,19 @@ const bloodhound = () => {
                 src={require("../../../assets/img/bloodhound/ultimate.png")}
                 alt=""
               />
+              <span>
+                Enhances your senses, allowing you move faster and highlighting
+                your prey.
+              </span>
             </li>
           </ul>
         </div>
       </div>
       <video
         src="https://media.contentapi.ea.com/content/dam/apex-legends/videos/2019/01/legend-hero-videos/apex-hero-medium-video-legend-bloodhound.mp4"
-        autoplay="true"
-        loop="true"
-        muted="true"
+        autoPlay={true}
+        loop={true}
+        muted={true}
       />
     </>
   );

@@ -24,12 +24,30 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/Lifeline">
+              <Link to="/Bangalore">
                 <img
-                  src={require("../../assets/img/lifeline/lifeline-menu.png")}
+                  src={require("../../assets/img/bangalore/bangalor-menu.png")}
                   alt=""
                 />
-                <span>Lifeline</span>
+                <span>Bangalor</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/Caustic">
+                <img
+                  src={require("../../assets/img/caustic/caustic-menu.png")}
+                  alt=""
+                />
+                <span>Caustic</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/Gibraltar">
+                <img
+                  src={require("../../assets/img/gibraltar/gibraltar-menu.png")}
+                  alt=""
+                />
+                <span>Gibraltar</span>
               </Link>
             </li>
             <li>
