@@ -59,6 +59,42 @@ class Menu extends React.Component {
                 <span>Lifeline</span>
               </Link>
             </li>
+            <li>
+              <Link to="/Mirage">
+                <img
+                  src={require("../../assets/img/mirage/mirage-menu.png")}
+                  alt=""
+                />
+                <span>Mirage</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/octane">
+                <img
+                  src={require("../../assets/img/octane/octane-menu.png")}
+                  alt=""
+                />
+                <span>Octane</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/pathfinder">
+                <img
+                  src={require("../../assets/img/pathfinder/pathfinder-menu.png")}
+                  alt=""
+                />
+                <span>Pathfinder</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/wraith">
+                <img
+                  src={require("../../assets/img/wraith/wraith-menu.png")}
+                  alt=""
+                />
+                <span>Wraith</span>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

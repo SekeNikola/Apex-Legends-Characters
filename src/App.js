@@ -6,6 +6,10 @@ import Lifeline from "./components/characters/lifeline/lifeline";
 import Bangalore from "./components/characters/bangalore/bangalore";
 import Caustic from "./components/characters/caustic/caustic";
 import Gibraltar from "./components/characters/gibraltar/gibraltar";
+import Mirage from "./components/characters/mirage/mirage";
+import Octane from "./components/characters/octane/octane";
+import Pathfinder from "./components/characters/pathfinder/pathfinder";
+import Wraith from "./components/characters/wraith/wraith";
 import Menu from "./components/menu/menu";
 
 const App = () => {
@@ -19,6 +23,10 @@ const App = () => {
           <Route path="/caustic" component={Caustic} />
           <Route path="/gibraltar" component={Gibraltar} />
           <Route path="/lifeline" component={Lifeline} />
+          <Route path="/mirage" component={Mirage} />
+          <Route path="/octane" component={Octane} />
+          <Route path="/pathfinder" component={Pathfinder} />
+          <Route path="/wraith" component={Wraith} />
         </div>
       </div>
     </BrowserRouter>
