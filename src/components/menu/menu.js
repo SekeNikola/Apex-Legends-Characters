@@ -24,7 +24,7 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/Bangalore">
+              <Link to="/legends/bangalore">
                 <img
                   src={require("../../assets/img/bangalore/bangalor-menu.png")}
                   alt=""
@@ -33,7 +33,7 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/Caustic">
+              <Link to="/legends/caustic">
                 <img
                   src={require("../../assets/img/caustic/caustic-menu.png")}
                   alt=""
@@ -42,7 +42,7 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/Gibraltar">
+              <Link to="/legends/gibraltar">
                 <img
                   src={require("../../assets/img/gibraltar/gibraltar-menu.png")}
                   alt=""
@@ -51,7 +51,7 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/Lifeline">
+              <Link to="/legends/lifeline">
                 <img
                   src={require("../../assets/img/lifeline/lifeline-menu.png")}
                   alt=""
@@ -60,7 +60,7 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/Mirage">
+              <Link to="/legends/mirage">
                 <img
                   src={require("../../assets/img/mirage/mirage-menu.png")}
                   alt=""
@@ -69,7 +69,7 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/octane">
+              <Link to="/legends/octane">
                 <img
                   src={require("../../assets/img/octane/octane-menu.png")}
                   alt=""
@@ -78,7 +78,7 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/pathfinder">
+              <Link to="/legends/pathfinder">
                 <img
                   src={require("../../assets/img/pathfinder/pathfinder-menu.png")}
                   alt=""
@@ -87,7 +87,7 @@ class Menu extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/wraith">
+              <Link to="/legends/wraith">
                 <img
                   src={require("../../assets/img/wraith/wraith-menu.png")}
                   alt=""

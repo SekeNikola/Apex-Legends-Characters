@@ -18,15 +18,15 @@ const App = () => {
       <div className="main">
         <Menu />
         <div className="hero">
-          <Route exact path="/" component={BloodHound} />
-          <Route path="/bangalore" component={Bangalore} />
-          <Route path="/caustic" component={Caustic} />
-          <Route path="/gibraltar" component={Gibraltar} />
-          <Route path="/lifeline" component={Lifeline} />
-          <Route path="/mirage" component={Mirage} />
-          <Route path="/octane" component={Octane} />
-          <Route path="/pathfinder" component={Pathfinder} />
-          <Route path="/wraith" component={Wraith} />
+          <Route exact path="/legends" component={BloodHound} />
+          <Route path="/legends/bangalore" component={Bangalore} />
+          <Route path="/legends/caustic" component={Caustic} />
+          <Route path="/legends/gibraltar" component={Gibraltar} />
+          <Route path="/legends/lifeline" component={Lifeline} />
+          <Route path="/legends/mirage" component={Mirage} />
+          <Route path="/legends/octane" component={Octane} />
+          <Route path="/legends/pathfinder" component={Pathfinder} />
+          <Route path="/legends/wraith" component={Wraith} />
         </div>
       </div>
     </BrowserRouter>
